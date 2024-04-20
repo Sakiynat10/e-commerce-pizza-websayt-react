@@ -36,7 +36,7 @@ const Header = () => {
                 <p>Куда пицца</p>
             </NavLink>
             <NavLink className="nav-cart" to="/cart">
-                <img src="/public/cart.svg" alt="cart" />
+                <img src="/cart.svg" alt="cart" />
                 <p className="price">0 ₽</p>
             </NavLink>
         </div>
