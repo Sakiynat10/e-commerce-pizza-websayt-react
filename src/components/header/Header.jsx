@@ -9,7 +9,7 @@ const Header = () => {
         <div className="container top-container">
           <div className="top-left">
             <a className="top-left--logo" href="https://www.bing.com/maps?osid=0801f43c-1b83-4b68-a7bb-e78f096cc05d&cp=55.744336~37.265906&lvl=10.010755&pi=0&imgid=4d16336c-10ce-42aa-a334-0e2546cbf722&v=2&sV=2&form=S00027">
-              <img src="/public/Location.svg" alt="location" />
+              <img src="/Location.svg" alt="location" />
               Москва
             </a>
             <div className="top-left__infos">
@@ -23,7 +23,7 @@ const Header = () => {
           <div className="top-right">
             <p className="right-data">Время работы: с 11:00 до 23:00</p>
             <a href="#" className="right-infos">
-              <img src="/public/user.svg" alt="user" />
+              <img src="/user.svg" alt="user" />
               <p>Войти в аккаунт</p>
             </a>
           </div>
