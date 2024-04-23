@@ -8,7 +8,9 @@ const Layout = () => {
   return (
     <Fragment>
         <Header/>
-          <Outlet/>
+          <main>
+            <Outlet/>
+          </main>
         <Footer/>
     </Fragment>
   )

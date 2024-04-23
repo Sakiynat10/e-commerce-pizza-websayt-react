@@ -1,8 +1,12 @@
 import { NavLink } from "react-router-dom";
 
 import "./header.scss";
+import { useContext } from "react";
+import { CartContext } from "../../context/CartContext";
 
 const Header = () => {
+  const {totalPrice} = useContext(CartContext);
+  
   return (
     <div className="header">
       <div className="top-nav">
@@ -37,7 +41,8 @@ const Header = () => {
             </NavLink>
             <NavLink className="nav-cart" to="/cart">
                 <img src="/cart.svg" alt="cart" />
-                <p className="price">0 ₽</p>
+                <p className="price">{totalPrice} ₽</p>
+                {/* <p className="price">{cart.length}</p> */}
             </NavLink>
         </div>
       </div>

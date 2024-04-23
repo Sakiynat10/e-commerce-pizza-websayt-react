@@ -6,8 +6,25 @@
   color: rgba(25, 25, 25, 1);
 }
 
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex: 1;
+}
+
 .container {
   max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-850{
+  max-width: 850px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
