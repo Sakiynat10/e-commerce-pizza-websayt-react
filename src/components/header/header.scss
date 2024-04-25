@@ -107,13 +107,31 @@
             .main-nav__logo{
                 gap: 10px;
             }
-            .nav-cart{
-                gap: 5px;
-                background-color: #FF7010;
-                padding: 10px 20px;
-                border-radius: 5px;
-                p{
+            .nav-right{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .nav-cart{
+                    gap: 5px;
+                    background-color: #FF7010;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    p{
+                        color: #fff;
+                    }
+                }
+                select{
+                    padding: 10px;
+                    cursor: pointer;
+                    background-color: #FF7010;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 18px;
                     color: #fff;
+                    outline: none;
+                    option{
+                        color: #fff;
+                    }
                 }
             }
 

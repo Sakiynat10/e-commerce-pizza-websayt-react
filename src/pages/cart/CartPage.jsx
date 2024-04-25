@@ -2,14 +2,18 @@ import { Fragment, useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import CartProductCard from "../../components/card/CartProductCard";
 import "./cartPage.scss";
+import { LanguageContext } from "../../App";
 
 const CartPage = () => {
-  const { cart } = useContext(CartContext);
+  const { cart , totalPrice } = useContext(CartContext);
+  const {languageObj:t} = useContext(LanguageContext);
+
   return (
+
     <Fragment>
       <section id="cart">
         <div className="container-850">
-          <h1>Ваш заказ</h1>
+          <h1>{t.yourorder}</h1>
           {cart.map((pr) => (
             <CartProductCard {...pr} key={pr.id} />
           ))}
@@ -31,7 +35,7 @@ const CartPage = () => {
             </div>
             <div className="total-price_info">
               <p>
-                Итого: <span>{cart.map((pr) => pr.price)}</span>
+                Итого: <span>{totalPrice} ₽</span>
               </p>
               <button>Оформить заказ</button>
             </div>

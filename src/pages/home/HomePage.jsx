@@ -9,10 +9,12 @@ import { products } from "../../data/products/products";
 import { Autoplay } from "swiper/modules";
 
 import "./homePage.scss";
-import { Fragment } from "react";
+import { Fragment, useContext } from "react";
 import ProductCard from "../../components/card/ProductCard";
+import { LanguageContext } from "../../App";
 
 const HomePage = () => {
+  const {languageObj:t} = useContext(LanguageContext)
   return (
     <Fragment>
       <section id="category">
@@ -20,9 +22,9 @@ const HomePage = () => {
           <Tabs className="category-tabs">
             <TabList className="category-tablist">
               <Tab className="category-tab">
-                <img src="/fire.svg" alt="" /> <p>Акции</p>
+                <img src="/fire.svg" alt="" /> <p>{t.discount}</p>
               </Tab>
-              {categories.map((category) => (
+              {t.categories.map((category) => (
                 <Tab className="category-tab" key={category.name}>
                   <img src={category.image} alt={category.name} />{" "}
                   <p>{category.name}</p>
@@ -439,13 +441,13 @@ const HomePage = () => {
       <section id="address">
         <div className="container">
           <div className="address-container">
-            <h1>Проверить адрес доставки</h1>
+            <h1>{t.check_address_title}</h1>
             <div className="input-group">
               <input type="text" placeholder="Адрес" />
               <button type="submit" className="send-btn">
                 <img src="/send.png" alt="send" />
               </button>
-              <button className="btn">Проверить</button>
+              <button className="btn">{t.check}</button>
               <img
                 className="location-img"
                 src="/Location.svg"
@@ -470,13 +472,13 @@ const HomePage = () => {
                     />
                     <select>
                       <option value="1">
-                        <p>Фильтры</p>
+                        <p>{t.filter}</p>
                       </option>
                     </select>
                   </div>
                 </div>
                 <div className="category-cards">
-                  {products
+                  {t.products
                     .filter((product) => product.category === category.name)
                     .map((product, id) => (
                       <ProductCard {...product} key={id}/>
@@ -490,32 +492,17 @@ const HomePage = () => {
       <section id="deliver">
         <div className="container-850">
           <div className="deliver-infos">
-            <h1>Доставка пиццы в Москве</h1>
+            <h1>{t.deliver_info}</h1>
             <p className="deliver-head__title">
-              Захотелось чего-то вкусного и сытного? Желание простое и понятное,
-              только в холодильнике все не то, и до магазина идти лень. Все
-              пропало? Нет. Недорого заказать пиццу в Москве очень просто! Вам
-              на помощь спешит супергерой – Domino’s Pizza! Как у всякого
-              супергероя, у Domino’s Pizza есть свои суперсилы: восхитительный
-              вкус продукции из отборных ингредиентов; широкий ассортимент,
-              включающий легендарные, фирменные и классические виды, для
-              вегетарианцев и любителей экспериментировать; быстрая и бесплатная
-              доставка пиццы в течение 30 минут, чтобы вкусное и ароматное блюдо
-              не успевало остыть.
+              {t.deliver_head_title}
             </p>
-            <h3>Как сделать заказ</h3>
+            <h3>{t.order}</h3>
             <p className="deliver-last-title">
-              Доставка пиццы от Domino’s – это когда Вам не нужно никуда ехать
-              или звонить, ведь есть Интернет. Никогда еще заказ пиццы на дом в
-              Москве не был таким простым! Чтобы заказать пиццу онлайн, Вам
-              необходимо: выбрать понравившийся вариант и количество порций;
-              положить желаемое в «Корзину»; не уходить далеко, так как вкусная
-              пицца на заказ с доставкой уже мчится к Вам из ближайшей пиццерии
-              Domino’s. И не забудьте оплатить заказ курьеру!
+              {t.deliver_last_title}
             </p>
             <div className="overlay"></div>
           </div>
-          <a href="Показать полностью">Показать полностью</a>
+          <a href="Показать полностью">{t.more}</a>
         </div>
       </section>
     </Fragment>

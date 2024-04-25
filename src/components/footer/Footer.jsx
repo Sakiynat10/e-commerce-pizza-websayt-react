@@ -1,43 +1,47 @@
+import { useContext } from "react";
+import { LanguageContext } from "../../App";
+
 import "./footer.scss";
 
 const Footer = () => {
+  const {languageObj:t} = useContext(LanguageContext)
   return (
     <div id="footer">
       <div className="container">
         <div className="footer-top-container">
           <a href="/" className="footer-logo">
             <img src="/pizza-logo.svg" alt="pizza" />
-            <p>Куда пицца</p>
+            <p>{t.brand_name}</p>
           </a>
           <ul>
-            <h1>Куда пицца</h1>
+            <h1>{t.brand_name}</h1>
             <li>
-              <a href="about">О компании</a>
+              <a href="about">{t.about}</a>
             </li>
             <li>
-              <a href="connect">Пользовательское соглашение</a>
+              <a href="connect">{t.rules}</a>
             </li>
             <li>
-              <a href="about">Условия гарантии</a>
+              <a href="warrant">{t.warrant}</a>
             </li>
           </ul>
           <ul>
-            <h1>Помощь</h1>
+            <h1>{t.help}</h1>
             <li>
-              <a href="about">Ресторан</a>
+              <a href="about">{t.restauran}</a>
             </li>
             <li>
-              <a href="connect">Контакты</a>
+              <a href="connect">{t.contact}</a>
             </li>
             <li>
-              <a href="about">Поддержка</a>
+              <a href="about">{t.support}</a>
             </li>
             <li>
-              <a href="about">Отследить заказ</a>
+              <a href="about">{t.track_order}</a>
             </li>
           </ul>
           <ul className="contact-list">
-            <h1>Контакты</h1>
+            <h1>{t.contact}</h1>
             <li>
               <a href="about">
                 <img src="/phone.svg" alt="phone" />
@@ -63,7 +67,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-bottom-container">
-          © Copyright 2021 — Куда Пицца
+          © Copyright 2021 — {t.brand_name}
         </div>
       </div>
     </div>

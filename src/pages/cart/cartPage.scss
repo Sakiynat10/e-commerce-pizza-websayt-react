@@ -2,6 +2,7 @@
   padding-top: 140px;
   h1 {
     margin-bottom: 20px;
+    font-size: 32px;
   }
   .cart {
     margin-bottom: 30px;
@@ -122,6 +123,9 @@
             flex-direction: row;
             gap: 20px;
             align-items: center;
+            &__top{
+              margin-bottom: 0;
+            }
             &__bottom{
                 flex-direction: column-reverse;
                 gap: 20px;
@@ -135,6 +139,12 @@
             &__bottom{
                 flex-direction: row;
                 gap: 5px;
+            }
+            h4{
+              font-size: 24px;
+            }
+            p{
+              font-size: 18px;
             }
         }
     }
@@ -218,7 +228,7 @@
                 }
             }
             .total-price_info{
-                max-width: 150px;
+                max-width: 200px;
                 width: 100%;
                 button{
                     display: none;

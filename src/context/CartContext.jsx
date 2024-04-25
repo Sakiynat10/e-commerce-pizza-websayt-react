@@ -6,6 +6,7 @@ import { products } from "../data/products/products";
 export const CartContext = createContext();
 
 const CartContextProvider = ({ children }) => {
+
   const [cart, setCart] = useState(
     JSON.parse(localStorage.getItem("cart")) || []
   );

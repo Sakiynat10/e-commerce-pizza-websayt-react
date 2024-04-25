@@ -5,8 +5,8 @@ import PropTypes from "prop-types";
 const CartProductCard = ({name ,quantity , description , price , discount , image , filter , id}) => {
   const {increaseQuantity , decreaseQuantity  } = useContext(CartContext);
 
-
   return (
+
     <div className="cart">
         <img className="cart-img" src={image} alt={name} />
         {filter ? <span className="filter">{filter}</span> : <></>}
