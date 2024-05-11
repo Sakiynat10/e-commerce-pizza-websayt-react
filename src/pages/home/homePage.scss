@@ -314,8 +314,14 @@ body {
           margin-right: auto;
           background-color: #fff;
           .card-img {
-            img {
-              max-width: 400px;
+            max-width: 400px;
+            width: 100%;
+            display: flex;
+            .lazy-load-image-background {
+              .img{
+                width: 100%;
+              }
+              max-width: 700px;
               width: 100%;
               border-bottom: 2px solid rgba(213, 213, 213, 0.608);
             }
@@ -442,7 +448,7 @@ body {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
         }
-        @media (min-width: 820px) {
+        @media (min-width: 852px) {
           margin-left: 0;
           margin-right: 0;
           display: grid;

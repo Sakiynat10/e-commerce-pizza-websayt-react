@@ -39,7 +39,7 @@ const UZ = {
       products:[
         {
           id: "pizza-1",
-          category: "Пицца",
+          category: "Pitsalar",
           filter: "New",
           image: "/pizza-img-1.png",
           name: "Mazali chili jo'jali",
@@ -48,7 +48,7 @@ const UZ = {
         },
         {
           id: "pizza-2",
-          category: "Пицца",
+          category: "Pitsalar",
           filter: "Хит",
           image: "/pizza-img-2.png",
           name: "EASY PEASY bodring sosiska",
@@ -57,7 +57,7 @@ const UZ = {
         },
         {
           id: "pizza-3",
-          category: "Пицца",
+          category: "Pitsalar",
           filter: "",
           image: "/pizza-img-3.png",
           name: "EASY PEASY chig'anoq à la horseradish",
@@ -66,7 +66,7 @@ const UZ = {
         },
         {
           id: "pizza-4",
-          category: "Пицца",
+          category: "Pitsalar",
           filter: "",
           image: "/pizza-img-4.png",
           name: "4 fasllar",
@@ -75,7 +75,7 @@ const UZ = {
         },
         {
           id: "pizza-5",
-          category: "Пицца",
+          category: "Pitsalar",
           filter: "",
           image: "/pizza-img-5.png",
           name: "4 fasllar",
@@ -84,7 +84,7 @@ const UZ = {
         },
         {
           id: "pizza-6",
-          category: "Пицца",
+          category: "Pitsalar",
           filter: "Хит",
           image: "/pizza-img-6.png",
           name: "EASY PEASY chig'anoq à la horseradish",
@@ -93,7 +93,7 @@ const UZ = {
         },
         {
           id: "pizza-7",
-          category: "Пицца",
+          category: "Pitsalar",
           filter: "",
           image: "/pizza-img-7.png",
           name: "Mazali chili jo'jali",
@@ -102,7 +102,7 @@ const UZ = {
         },
         {
           id: "pizza-8",
-          category: "Пицца",
+          category: "Pitsalar",
           filter: "",
           image: "/pizza-img-8.png",
           name: "EASY PEASY bodring sosiska",
@@ -148,7 +148,7 @@ const UZ = {
     
         {
           id: "sushi-1",
-          category: "Суши",
+          category: "Sushi",
           filter: "New",
           image: "/sushi-img-1.png",
           name: "Filadelfiya inqirozi",
@@ -157,7 +157,7 @@ const UZ = {
         },
         {
           id: "sushi-2",
-          category: "Суши",
+          category: "Sushi",
           filter: "Xit",
           image: "/sushi-img-2.png",
           name: "Filadelfiya crème brûlée",
@@ -166,7 +166,7 @@ const UZ = {
         },
         {
           id: "sushi-3",
-          category: "Суши",
+          category: "Sushi",
           filter: "",
           image: "/sushi-img-3.png",
           name: "Super Filadelfiya",
@@ -175,7 +175,7 @@ const UZ = {
         },
         {
           id: "sushi-4",
-          category: "Суши",
+          category: "Sushi",
           filter: "",
           image: "/sushi-img-4.png",
           name: "Tigr Mama",
@@ -184,7 +184,7 @@ const UZ = {
         },
         {
           id: "sushi-5",
-          category: "Суши",
+          category: "Sushi",
           filter: "",
           image: "/sushi-img-5.png",
           name: "Tigr Mama",
@@ -193,7 +193,7 @@ const UZ = {
         },
         {
           id: "sushi-6",
-          category: "Суши",
+          category: "Sushi",
           filter: "",
           image: "/sushi-img-6.png",
           name: "Super Filadelfiya",
@@ -202,7 +202,7 @@ const UZ = {
         },
         {
           id: "sushi-7",
-          category: "Суши",
+          category: "Sushi",
           filter: "",
           image: "/sushi-img-7.png",
           name: "Filadelfiya inqirozi",
@@ -211,7 +211,7 @@ const UZ = {
         },
         {
           id: "sushi-8",
-          category: "Суши",
+          category: "Sushi",
           filter: "",
           image: "/sushi-img-8.png",
           name: "Filadelfiya crème brûlée",
@@ -220,7 +220,7 @@ const UZ = {
         },
         {
           id: "drink-1",
-          category: "Напитки",
+          category: "Ichimliklar",
           filter: "New",
           image: "/drink-img-1.png",
           name: "Adrenalin energetik",
@@ -230,7 +230,7 @@ const UZ = {
         },
         {
           id: "drink-2",
-          category: "Напитки",
+          category: "Ichimliklar",
           filter: "Хит",
           image: "/drink-img-2.png",
           name: "Pepsi shakarsiz",
@@ -240,7 +240,7 @@ const UZ = {
         },
         {
           id: "drink-3",
-          category: "Напитки",
+          category: "Ichimliklar",
           filter: "",
           image: "/drink-img-3.png",
           name: "Pepsi odatiy",
@@ -249,7 +249,7 @@ const UZ = {
         },
         {
           id: "drink-4",
-          category: "Напитки",
+          category: "Ichimliklar",
           filter: "",
           image: "/drink-img-4.png",
           name: "Pepsi yovoyi olcha",
@@ -258,7 +258,7 @@ const UZ = {
         },
         {
           id: "drink-5",
-          category: "Напитки",
+          category: "Ichimliklar",
           filter: "",
           image: "/drink-img-5.png",
           name: "Pepsi shakrsiz oq",
@@ -267,7 +267,7 @@ const UZ = {
         },
         {
           id: "drink-6",
-          category: "Напитки",
+          category: "Ichimliklar",
           filter: "",
           image: "/drink-img-6.png",
           name: "Mirinda Apelsin",
@@ -276,7 +276,7 @@ const UZ = {
         },
         {
           id: "drink-7",
-          category: "Напитки",
+          category: "Ichimliklar",
           filter: "",
           image: "/drink-img-7.png",
           name: "Adrenalin energetik",
@@ -285,7 +285,7 @@ const UZ = {
         },
         {
           id: "drink-8",
-          category: "Напитки",
+          category: "Ichimliklar",
           filter: "",
           image: "/drink-img-8.png",
           name: "Pepsi shakarsiz",
@@ -294,7 +294,7 @@ const UZ = {
         },
         {
           id: "sauce-1",
-          category: "Закуски",
+          category: "Gazaklar",
           filter: "New",
           image: "/snack-img-1.png",
           name: "Filadelfiya inqirozi",
@@ -304,7 +304,7 @@ const UZ = {
         },
         {
           id: "sauce-2",
-          category: "Закуски",
+          category: "Gazaklar",
           filter: "Xit",
           image: "/snack-img-2.png",
           name: "Filadelfiya crème brûlée",
@@ -314,7 +314,7 @@ const UZ = {
         },
         {
           id: "sauce-3",
-          category: "Закуски",
+          category: "Gazaklar",
           filter: "",
           image: "/snack-img-3.png",
           name: "Super Filadelfiya",
@@ -323,7 +323,7 @@ const UZ = {
         },
         {
           id: "sauce-4",
-          category: "Закуски",
+          category: "Gazaklar",
           filter: "",
           image: "/snack-img-4.png",
           name: "Tigr Mama",
@@ -332,7 +332,7 @@ const UZ = {
         },
         {
           id: "sauce-5",
-          category: "Закуски",
+          category: "Gazaklar",
           filter: "",
           image: "/snack-img-5.png",
           name: "Tigr Mama",
@@ -341,7 +341,7 @@ const UZ = {
         },
         {
           id: "sauce-6",
-          category: "Закуски",
+          category: "Gazaklar",
           filter: "",
           image: "/snack-img-6.png",
           name: "Super Filadelfiya",
@@ -350,7 +350,7 @@ const UZ = {
         },
         {
           id: "sauce-7",
-          category: "Закуски",
+          category: "Gazaklar",
           filter: "",
           image: "/snack-img-7.png",
           name: "Filadelfiya crème brûlée",
@@ -360,7 +360,7 @@ const UZ = {
         },
         {
           id: "sauce-8",
-          category: "Закуски",
+          category: "Gazaklar",
           filter: "",
           image: "/snack-img-8.png",
           name: "Filadelfiya inqirozi",
@@ -371,7 +371,7 @@ const UZ = {
     
         {
           id: "desert-1",
-          category: "Десерты",
+          category: "Desertlar",
           image: "/desert-img-1.png",
           name: "Filadelfiya inqirozi",
           description:
@@ -381,7 +381,7 @@ const UZ = {
         },
         {
           id: "desert-2",
-          category: "Десерты",
+          category: "Desertlar",
           image: "/desert-img-2.png",
           name: "Filadelfiya crème brûlée",
           description:
@@ -391,7 +391,7 @@ const UZ = {
         },
         {
           id: "desert-3",
-          category: "Десерты",
+          category: "Desertlar",
           image: "/desert-img-3.png",
           name: "Super Filadelfiya",
           description: "Haqiqatan ham ko'p somon, krem pishloq, guruch, guruch, n ...",
@@ -400,7 +400,7 @@ const UZ = {
         },
         {
           id: "desert-4",
-          category: "Десерты",
+          category: "Desertlar",
           image: "/desert-img-4.png",
           name: "Tigr Mama",
           description: "Chigirtka qisqichbaqasi, guruch, avakado, aioli sousi, guruch, muz...",
@@ -409,7 +409,7 @@ const UZ = {
         },
         {
           id: "desert-5",
-          category: "Десерты",
+          category: "Desertlar",
           image: "/desert-img-5.png",
           name: "Tigr Mama",
           description: "Chigirtka qisqichbaqasi, guruch, avakado, aioli sousi, guruch, muz...",
@@ -418,7 +418,7 @@ const UZ = {
         },
         {
           id: "desert-6",
-          category: "Десерты",
+          category: "Desertlar",
           image: "/desert-img-6.png",
           name: "Filadelfiya crème brûlée",
           description:
@@ -428,7 +428,7 @@ const UZ = {
         },
         {
           id: "desert-7",
-          category: "Десерты",
+          category: "Desertlar",
           image: "/desert-img-7.png",
           name: "Filadelfiya inqirozi",
           description:
@@ -438,7 +438,7 @@ const UZ = {
         },
         {
           id: "desert-8",
-          category: "Десерты",
+          category: "Desertlar",
           image: "/desert-img-8.png",
           name: "Super Filadelfiya",
           description: "Haqiqatan ham ko'p somon, krem pishloq, guruch, guruch, n ...",
@@ -447,7 +447,7 @@ const UZ = {
         },
         {
           id: "sauce-1",
-          category: "Соусы",
+          category: "Sous",
           filter: "NEW",
           image: "/sauce-img-8.png",
           name: "Filadelfiya inqirozi",
@@ -456,7 +456,7 @@ const UZ = {
         },
         {
           id: "sauce-2",
-          category: "Соусы",
+          category: "Sous",
           filter: "ХИТ",
           image: "/sauce-img-2.png",
           name: "Filadelfiya crème brûlée",
@@ -465,7 +465,7 @@ const UZ = {
         },
         {
           id: "sauce-3",
-          category: "Соусы",
+          category: "Sous",
           filter: "",
           image: "/sauce-img-3.png",
           name: "Super Filadelfiya",
@@ -474,7 +474,7 @@ const UZ = {
         },
         {
           id: "sauce-4",
-          category: "Соусы",
+          category: "Sous",
           filter: "",
           image: "/sauce-img-4.png",
           name: "Tigr Mama",
@@ -483,7 +483,7 @@ const UZ = {
         },
         {
           id: "sauce-5",
-          category: "Соусы",
+          category: "Sous",
           filter: "",
           image: "/sauce-img-5.png",
           name: "Filadelfiya crème brûlée",
@@ -492,7 +492,7 @@ const UZ = {
         },
         {
           id: "sauce-6",
-          category: "Соусы",
+          category: "Sous",
           filter: "",
           image: "/sauce-img-4.png",
           name: "Tigr Mama",
@@ -501,7 +501,7 @@ const UZ = {
         },
         {
           id: "sauce-7",
-          category: "Соусы",
+          category: "Sous",
           filter: "",
           image: "/sauce-img-7.png",
           name: "Супер Филадельфия",
@@ -510,7 +510,7 @@ const UZ = {
         },
         {
           id: "sauce-8",
-          category: "Соусы",
+          category: "Sous",
           filter: "",
           image: "/sauce-img-8.png",
           name: "Filadelfiya inqirozi",
@@ -519,7 +519,7 @@ const UZ = {
         },
         {
           id: "combo-1",
-          category: "Комбо",
+          category: "Birlashmalar",
           filter: "",
           image: "/combo-img-1.png",
           name: "Filadelfiya inqirozi",
@@ -530,7 +530,7 @@ const UZ = {
         },
         {
           id: "combo-2",
-          category: "Комбо",
+          category: "Birlashmalar",
           filter: "",
           image: "/combo-img-2.png",
           name: "Filadelfiya crème brûlée",
@@ -541,7 +541,7 @@ const UZ = {
         },
         {
           id: "combo-3",
-          category: "Комбо",
+          category: "Birlashmalar",
           filter: "",
           image: "/combo-img-3.png",
           name: "Супер Филадельфия",
@@ -551,7 +551,7 @@ const UZ = {
         },
         {
           id: "combo-4",
-          category: "Комбо",
+          category: "Birlashmalar",
           filter: "",
           image: "/combo-img-4.png",
           name: "Tigr Mama",
@@ -561,7 +561,7 @@ const UZ = {
         },
         {
           id: "combo-5",
-          category: "Комбо",
+          category: "Birlashmalar",
           filter: "",
           image: "/combo-img-5.png",
           name: "Filadelfiya crème brûlée",
@@ -572,7 +572,7 @@ const UZ = {
         },
         {
           id: "combo-6",
-          category: "Комбо",
+          category: "Birlashmalar",
           filter: "",
           image: "/combo-img-6.png",
           name: "Filadelfiya inqirozi",
@@ -583,7 +583,7 @@ const UZ = {
         },
         {
           id: "combo-7",
-          category: "Комбо",
+          category: "Birlashmalar",
           filter: "",
           image: "/combo-img-7.png",
           name: "Tigr Mama",
@@ -593,7 +593,7 @@ const UZ = {
         },
         {
           id: "combo-8",
-          category: "Комбо",
+          category: "Birlashmalar",
           filter: "",
           image: "/combo-img-8.png",
           name: "Супер Филадельфия",

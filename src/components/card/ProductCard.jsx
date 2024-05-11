@@ -12,6 +12,7 @@ const ProductCard = ({
   discount,
   price,
   filter,
+  category
 }) => {
   const { addToCart, cart, increaseQuantity, decreaseQuantity } =
     useContext(CartContext);
@@ -19,9 +20,9 @@ const ProductCard = ({
   const { languageObj: t } = useContext(LanguageContext);
 
   return (
-    <div className="category-card" key={id}>
+    <section className="category-card" id={category} key={id}>
       <div className="card-img">
-        <LazyLoadImage effect="blur" src={image} />
+        <LazyLoadImage effect="blur" className="img" src={image} />
       </div>
       <div className="card-info">
         <h3 className="product-name">{name}</h3>
@@ -48,7 +49,7 @@ const ProductCard = ({
         </div>
       </div>
       {filter ? <span className="filter">{filter}</span> : <></>}
-    </div>
+    </section>
   );
 };
 
@@ -60,6 +61,7 @@ ProductCard.propTypes = {
   discount: PropTypes.number,
   price: PropTypes.string || PropTypes.number,
   filter: PropTypes.string,
+  category:PropTypes.string
 };
 
 export default ProductCard;

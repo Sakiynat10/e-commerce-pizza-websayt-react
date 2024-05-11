@@ -460,7 +460,7 @@ const HomePage = () => {
       <section id="products">
         <div className="container">
           <div className="categories">
-            {categories.map((category, i) => (
+            {t.categories.map((category, i) => (
               <div key={i}>
                 <div className="category-group">
                   <p className="category-name">{category.name}</p>

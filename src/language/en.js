@@ -40,7 +40,7 @@ const EN = {
   products: [
     {
       id: "pizza-1",
-      category: "Пицца",
+      category: "Pizza",
       filter: "New",
       image: "/pizza-img-1.png",
       name: "Delicious chili chili chick",
@@ -50,7 +50,7 @@ const EN = {
     },
     {
       id: "pizza-2",
-      category: "Пицца",
+      category: "Pizza",
       filter: "Хит",
       image: "/pizza-img-2.png",
       name: "EASY PEASY cucumber sausage",
@@ -60,7 +60,7 @@ const EN = {
     },
     {
       id: "pizza-3",
-      category: "Пицца",
+      category: "Pizza",
       filter: "",
       image: "/pizza-img-3.png",
       name: "EASY PEASY chick à la horseradish",
@@ -70,7 +70,7 @@ const EN = {
     },
     {
       id: "pizza-4",
-      category: "Пицца",
+      category: "Pizza",
       filter: "",
       image: "/pizza-img-4.png",
       name: "4 Chapters",
@@ -79,7 +79,7 @@ const EN = {
     },
     {
       id: "pizza-5",
-      category: "Пицца",
+      category: "Pizza",
       filter: "",
       image: "/pizza-img-5.png",
       name: "4 Chapters",
@@ -88,7 +88,7 @@ const EN = {
     },
     {
       id: "pizza-6",
-      category: "Пицца",
+      category: "Pizza",
       filter: "Хит",
       image: "/pizza-img-6.png",
       name: "EASY PEASY chick à la horseradish",
@@ -98,7 +98,7 @@ const EN = {
     },
     {
       id: "pizza-7",
-      category: "Пицца",
+      category: "Pizza",
       filter: "",
       image: "/pizza-img-7.png",
       name: "Delicious chili chili chick",
@@ -108,7 +108,7 @@ const EN = {
     },
     {
       id: "pizza-8",
-      category: "Пицца",
+      category: "Pizza",
       filter: "",
       image: "/pizza-img-8.png",
       name: "EASY PEASY bodring sosiska",
@@ -155,7 +155,7 @@ const EN = {
 
     {
       id: "sushi-1",
-      category: "Суши",
+      category: "Sushi",
       filter: "New",
       image: "/sushi-img-1.png",
       name: "Philadelphia crisis",
@@ -165,7 +165,7 @@ const EN = {
     },
     {
       id: "sushi-2",
-      category: "Суши",
+      category: "Sushi",
       filter: "Xit",
       image: "/sushi-img-2.png",
       name: "Filadelfiya crème brûlée",
@@ -174,7 +174,7 @@ const EN = {
     },
     {
       id: "sushi-3",
-      category: "Суши",
+      category: "Sushi",
       filter: "",
       image: "/sushi-img-3.png",
       name: "Super Filadelfiya",
@@ -183,7 +183,7 @@ const EN = {
     },
     {
       id: "sushi-4",
-      category: "Суши",
+      category: "Sushi",
       filter: "",
       image: "/sushi-img-4.png",
       name: "Tigr Mama",
@@ -192,7 +192,7 @@ const EN = {
     },
     {
       id: "sushi-5",
-      category: "Суши",
+      category: "Sushi",
       filter: "",
       image: "/sushi-img-5.png",
       name: "Tigr Mama",
@@ -201,7 +201,7 @@ const EN = {
     },
     {
       id: "sushi-6",
-      category: "Суши",
+      category: "Sushi",
       filter: "",
       image: "/sushi-img-6.png",
       name: "Super Filadelfiya",
@@ -210,7 +210,7 @@ const EN = {
     },
     {
       id: "sushi-7",
-      category: "Суши",
+      category: "Sushi",
       filter: "",
       image: "/sushi-img-7.png",
       name: "Philadelphia crisis",
@@ -220,7 +220,7 @@ const EN = {
     },
     {
       id: "sushi-8",
-      category: "Суши",
+      category: "Sushi",
       filter: "",
       image: "/sushi-img-8.png",
       name: "Filadelfiya crème brûlée",
@@ -229,7 +229,7 @@ const EN = {
     },
     {
       id: "drink-1",
-      category: "Напитки",
+      category: "Drinks",
       filter: "New",
       image: "/drink-img-1.png",
       name: "Adrenaline energy",
@@ -238,7 +238,7 @@ const EN = {
     },
     {
       id: "drink-2",
-      category: "Напитки",
+      category: "Drinks",
       filter: "Хит",
       image: "/drink-img-2.png",
       name: "Pepsi zero sugar",
@@ -248,7 +248,7 @@ const EN = {
     },
     {
       id: "drink-3",
-      category: "Напитки",
+      category: "Drinks",
       filter: "",
       image: "/drink-img-3.png",
       name: "Pepsi ",
@@ -258,7 +258,7 @@ const EN = {
     },
     {
       id: "drink-4",
-      category: "Напитки",
+      category: "Drinks",
       filter: "",
       image: "/drink-img-4.png",
       name: "Pepsi wild cherry",
@@ -268,7 +268,7 @@ const EN = {
     },
     {
       id: "drink-5",
-      category: "Напитки",
+      category: "Drinks",
       filter: "",
       image: "/drink-img-5.png",
       name: "Pepsi Zero 1 sugar",
@@ -277,7 +277,7 @@ const EN = {
     },
     {
       id: "drink-6",
-      category: "Напитки",
+      category: "Drinks",
       filter: "",
       image: "/drink-img-6.png",
       name: "Mirinda Apelsin",
@@ -286,7 +286,7 @@ const EN = {
     },
     {
       id: "drink-7",
-      category: "Напитки",
+      category: "Drinks",
       filter: "",
       image: "/drink-img-7.png",
       name: "Adrenalin energetic",
@@ -295,7 +295,7 @@ const EN = {
     },
     {
       id: "drink-8",
-      category: "Напитки",
+      category: "Drinks",
       filter: "",
       image: "/drink-img-8.png",
       name: "Pepsi without sugar",
@@ -304,7 +304,7 @@ const EN = {
     },
     {
       id: "sauce-1",
-      category: "Закуски",
+      category: "Snacks",
       filter: "New",
       image: "/snack-img-1.png",
       name: "Philadelphia crisis",
@@ -314,7 +314,7 @@ const EN = {
     },
     {
       id: "sauce-2",
-      category: "Закуски",
+      category: "Snacks",
       filter: "Xit",
       image: "/snack-img-2.png",
       name: "Filadelfiya crème brûlée",
@@ -323,7 +323,7 @@ const EN = {
     },
     {
       id: "sauce-3",
-      category: "Закуски",
+      category: "Snacks",
       filter: "",
       image: "/snack-img-3.png",
       name: "Super Filadelfiya",
@@ -332,7 +332,7 @@ const EN = {
     },
     {
       id: "sauce-4",
-      category: "Закуски",
+      category: "Snacks",
       filter: "",
       image: "/snack-img-4.png",
       name: "Tigr Mama",
@@ -341,7 +341,7 @@ const EN = {
     },
     {
       id: "sauce-5",
-      category: "Закуски",
+      category: "Snacks",
       filter: "",
       image: "/snack-img-5.png",
       name: "Tigr Mama",
@@ -350,7 +350,7 @@ const EN = {
     },
     {
       id: "sauce-6",
-      category: "Закуски",
+      category: "Snacks",
       filter: "",
       image: "/snack-img-6.png",
       name: "Super Filadelfiya",
@@ -359,7 +359,7 @@ const EN = {
     },
     {
       id: "sauce-7",
-      category: "Закуски",
+      category: "Snacks",
       filter: "",
       image: "/snack-img-7.png",
       name: "Filadelfiya crème brûlée",
@@ -368,7 +368,7 @@ const EN = {
     },
     {
       id: "sauce-8",
-      category: "Закуски",
+      category: "Snacks",
       filter: "",
       image: "/snack-img-8.png",
       name: "Philadelphia crisis",
@@ -379,7 +379,7 @@ const EN = {
 
     {
       id: "desert-1",
-      category: "Десерты",
+      category: "Desserts",
       image: "/desert-img-1.png",
       name: "Philadelphia crisis",
       description:
@@ -389,7 +389,7 @@ const EN = {
     },
     {
       id: "desert-2",
-      category: "Десерты",
+      category: "Desserts",
       image: "/desert-img-2.png",
       name: "Filadelfiya crème brûlée",
       description: "Cream cheese, tataki straw cane sugar, sauce and...",
@@ -398,7 +398,7 @@ const EN = {
     },
     {
       id: "desert-3",
-      category: "Десерты",
+      category: "Desserts",
       image: "/desert-img-3.png",
       name: "Super Filadelfiya",
       description: "Indeed, a lot of straw, cream cheese, rice, rice, n...",
@@ -407,7 +407,7 @@ const EN = {
     },
     {
       id: "desert-4",
-      category: "Десерты",
+      category: "Desserts",
       image: "/desert-img-4.png",
       name: "Tigr Mama",
       description: "Locust shrimp, rice, avocado, aioli sauce, rice, ice...",
@@ -416,7 +416,7 @@ const EN = {
     },
     {
       id: "desert-5",
-      category: "Десерты",
+      category: "Desserts",
       image: "/desert-img-5.png",
       name: "Tigr Mama",
       description: "Locust shrimp, rice, avocado, aioli sauce, rice, ice...",
@@ -425,7 +425,7 @@ const EN = {
     },
     {
       id: "desert-6",
-      category: "Десерты",
+      category: "Desserts",
       image: "/desert-img-6.png",
       name: "Filadelfiya crème brûlée",
       description: "Cream cheese, tataki straw cane sugar, sauce and...",
@@ -434,7 +434,7 @@ const EN = {
     },
     {
       id: "desert-7",
-      category: "Десерты",
+      category: "Desserts",
       image: "/desert-img-7.png",
       name: "Philadelphia crisis",
       description:
@@ -444,7 +444,7 @@ const EN = {
     },
     {
       id: "desert-8",
-      category: "Десерты",
+      category: "Desserts",
       image: "/desert-img-8.png",
       name: "Super Filadelfiya",
       description: "Indeed, a lot of straw, cream cheese, rice, rice, n...",
@@ -453,7 +453,7 @@ const EN = {
     },
     {
       id: "sauce-1",
-      category: "Соусы",
+      category: "Sauces",
       filter: "NEW",
       image: "/sauce-img-8.png",
       name: "Philadelphia crisis",
@@ -462,7 +462,7 @@ const EN = {
     },
     {
       id: "sauce-2",
-      category: "Соусы",
+      category: "Sauces",
       filter: "ХИТ",
       image: "/sauce-img-2.png",
       name: "Filadelfiya crème brûlée",
@@ -471,7 +471,7 @@ const EN = {
     },
     {
       id: "sauce-3",
-      category: "Соусы",
+      category: "Sauces",
       filter: "",
       image: "/sauce-img-3.png",
       name: "Super Filadelfiya",
@@ -480,7 +480,7 @@ const EN = {
     },
     {
       id: "sauce-4",
-      category: "Соусы",
+      category: "Sauces",
       filter: "",
       image: "/sauce-img-4.png",
       name: "Tigr Mama",
@@ -489,7 +489,7 @@ const EN = {
     },
     {
       id: "sauce-5",
-      category: "Соусы",
+      category: "Sauces",
       filter: "",
       image: "/sauce-img-5.png",
       name: "Filadelfiya crème brûlée",
@@ -498,7 +498,7 @@ const EN = {
     },
     {
       id: "sauce-6",
-      category: "Соусы",
+      category: "Sauces",
       filter: "",
       image: "/sauce-img-4.png",
       name: "Tigr Mama",
@@ -507,7 +507,7 @@ const EN = {
     },
     {
       id: "sauce-7",
-      category: "Соусы",
+      category: "Sauces",
       filter: "",
       image: "/sauce-img-7.png",
       name: "Супер Филадельфия",
@@ -516,7 +516,7 @@ const EN = {
     },
     {
       id: "sauce-8",
-      category: "Соусы",
+      category: "Sauces",
       filter: "",
       image: "/sauce-img-8.png",
       name: "Philadelphia crisis",
@@ -525,7 +525,7 @@ const EN = {
     },
     {
       id: "combo-1",
-      category: "Комбо",
+      category: "Combo",
       filter: "",
       image: "/combo-img-1.png",
       name: "Philadelphia crisis",
@@ -536,7 +536,7 @@ const EN = {
     },
     {
       id: "combo-2",
-      category: "Комбо",
+      category: "Combo",
       filter: "",
       image: "/combo-img-2.png",
       name: "Filadelfiya crème brûlée",
@@ -546,7 +546,7 @@ const EN = {
     },
     {
       id: "combo-3",
-      category: "Комбо",
+      category: "Combo",
       filter: "",
       image: "/combo-img-3.png",
       name: "Супер Филадельфия",
@@ -556,7 +556,7 @@ const EN = {
     },
     {
       id: "combo-4",
-      category: "Комбо",
+      category: "Combo",
       filter: "",
       image: "/combo-img-4.png",
       name: "Tigr Mama",
@@ -566,7 +566,7 @@ const EN = {
     },
     {
       id: "combo-5",
-      category: "Комбо",
+      category: "Combo",
       filter: "",
       image: "/combo-img-5.png",
       name: "Filadelfiya crème brûlée",
@@ -576,7 +576,7 @@ const EN = {
     },
     {
       id: "combo-6",
-      category: "Комбо",
+      category: "Combo",
       filter: "",
       image: "/combo-img-6.png",
       name: "Philadelphia crisis",
@@ -587,7 +587,7 @@ const EN = {
     },
     {
       id: "combo-7",
-      category: "Комбо",
+      category: "Combo",
       filter: "",
       image: "/combo-img-7.png",
       name: "Tigr Mama",
@@ -597,7 +597,7 @@ const EN = {
     },
     {
       id: "combo-8",
-      category: "Комбо",
+      category: "Combo",
       filter: "",
       image: "/combo-img-8.png",
       name: "Супер Филадельфия",
