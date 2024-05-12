@@ -90,7 +90,7 @@ const Header = () => {
             </select>
             <button onClick={handleToggle} className="toggle-btn">
               <img src="/menu.svg" className={toggle === true ? "none" : "menu"} alt="menu" />
-              <img src="/public/close.svg" alt="close" className={toggle === true ? "menu" : "none"} />
+              <img src="/close.svg" alt="close" className={toggle === true ? "menu" : "none"} />
             </button>
           </div>
         </div>

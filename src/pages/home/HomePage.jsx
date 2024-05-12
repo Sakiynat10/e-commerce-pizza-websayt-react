@@ -9,14 +9,29 @@ import { products } from "../../data/products/products";
 import { Autoplay } from "swiper/modules";
 
 import "./homePage.scss";
-import { Fragment, useContext } from "react";
+import { Fragment, useContext, useEffect, useState } from "react";
 import ProductCard from "../../components/card/ProductCard";
 import { LanguageContext } from "../../App";
 
 const HomePage = () => {
-  const {languageObj:t} = useContext(LanguageContext)
+  const { languageObj: t } = useContext(LanguageContext);
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    const loadingDuration = 2000; // 2s
+
+    setTimeout(() => {
+      setLoading(true);
+    }, loadingDuration);
+  }, []);
+
   return (
     <Fragment>
+      <div className={loading ? "ring-content none" : "ring-content"}>
+        <div className="ring">
+          Loading
+          <span></span>
+        </div>
+      </div>
       <section id="category">
         <div className="container">
           <Tabs className="category-tabs">
@@ -73,9 +88,10 @@ const HomePage = () => {
                         <div className="card-prices">
                           <h2 className="price"> {product.price}</h2>
                           <h2 className="dis-price">
-                            {
-                              Math.round(product.price * (1-product.discount/100) )
-                            } ₽
+                            {Math.round(
+                              product.price * (1 - product.discount / 100)
+                            )}{" "}
+                            ₽
                           </h2>
                           {/* <h2 className="card-title">{product.name}</h2> */}
                         </div>
@@ -481,7 +497,7 @@ const HomePage = () => {
                   {t.products
                     .filter((product) => product.category === category.name)
                     .map((product, id) => (
-                      <ProductCard {...product} key={id}/>
+                      <ProductCard {...product} key={id} />
                     ))}
                 </div>
               </div>
@@ -493,13 +509,9 @@ const HomePage = () => {
         <div className="container-850">
           <div className="deliver-infos">
             <h1>{t.deliver_info}</h1>
-            <p className="deliver-head__title">
-              {t.deliver_head_title}
-            </p>
+            <p className="deliver-head__title">{t.deliver_head_title}</p>
             <h3>{t.order}</h3>
-            <p className="deliver-last-title">
-              {t.deliver_last_title}
-            </p>
+            <p className="deliver-last-title">{t.deliver_last_title}</p>
             <div className="overlay"></div>
           </div>
           <a href="Показать полностью">{t.more}</a>
