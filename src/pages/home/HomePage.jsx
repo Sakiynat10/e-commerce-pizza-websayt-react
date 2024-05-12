@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 
-import { categories } from "../../data/categories/categories";
 import { products } from "../../data/products/products";
 
 import { Autoplay } from "swiper/modules";
@@ -17,7 +16,7 @@ const HomePage = () => {
   const { languageObj: t } = useContext(LanguageContext);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
-    const loadingDuration = 2000; // 2s
+    const loadingDuration = 1000; // 2s
 
     setTimeout(() => {
       setLoading(true);
